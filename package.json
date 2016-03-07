@@ -1,0 +1,26 @@
+{
+  "name": "getting-started-with-react-es6-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lorenzo Bragaglia",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-loader": "^5.4.0",
+    "babel-plugin-react-transform": "^1.1.1",
+    "css-loader": "^0.23.1",
+    "html-webpack-plugin": "^1.7.0",
+    "react-transform": "0.0.3",
+    "react-transform-hmr": "^1.0.1",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.11"
+  },
+  "dependencies": {
+    "react": "^0.14.6",
+    "react-dom": "^0.14.6"
+  }
+}
